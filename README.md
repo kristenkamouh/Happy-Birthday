@@ -1,17 +1,21 @@
 # Happy-Birthday
 Happy Birthday using python turtle and pygame
 
-## Setup yourself
+## How to use it
 
-# direct download 
+### direct download 
 download the latest version from the release page
 
-# clone the repository
+## Setup yourself
+### clone the repository
 - edit the python file (change colors, change the displayed sentece, ...)
 - change the theme song (change the directory/name in the main file)
 - if you want to remove the song reove thos lines:
+  
 ```python
 from pygame import mixer
+
+
 mixer.pre_init(frequency=48000, size=-16, channels=2, buffer=512)
 mixer.init()
 mixer.music.load("hbd-song.mp3") #add your music file name or path
@@ -21,7 +25,7 @@ mixer.music.load("hbd-song.mp3") #add your music file name or path
 ```bash
 pip install auto-py-to-exe
 ```
-- run ```bash auto-py-to-exe``` in your terminal
+- run ```auto-py-to-exe``` in your terminal
 - add the file directory 
 - choose if you want the app to be window or console based
 - add an icon (optional)
