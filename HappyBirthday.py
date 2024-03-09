@@ -10,7 +10,7 @@ mixer.music.load("hbd-song.mp3") #add your music file name or path
 
 # sets background
 bg = turtle.Screen()
-bg.title("3A2BEL EL 100 !!!!!!!!!!!!!")
+bg.title("3A2BEL EL 100 !!!!! - **use earphones for better experience !")
 bg.bgcolor("black")
 mixer.music.play()
 
@@ -107,6 +107,6 @@ turtle.color("pink")
 turtle.pendown()
 
 
-turtle.write(arg=f"Happy Birthday, dear father, as the sun doth shine, \nMay each moment be a sonnet, in this day of thine.", align="left", font=("jokerman", 15, "normal"))
+turtle.write(arg=f"Happy Birthday, dear companion, as the sun doth shine, \nMay each moment be a sonnet, in this day of thine.", align="left", font=("jokerman", 15, "normal"))
 
 time.sleep(5)
