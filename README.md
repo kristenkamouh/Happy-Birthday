@@ -8,6 +8,13 @@ download the latest version from the release page
 
 ## Setup yourself
 ### clone the repository
+- first install the requirements
+```bash
+pip install turtle
+```
+```bash
+pip install pygame
+```
 - edit the python file (change colors, change the displayed sentece, ...)
 - change the theme song (change the directory/name in the main file)
 - if you want to remove the song reove thos lines:
