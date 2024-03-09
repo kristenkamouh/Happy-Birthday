@@ -17,7 +17,7 @@ pip install pygame
 ```
 - edit the python file (change colors, change the displayed sentece, ...)
 - change the theme song (change the directory/name in the main file)
-- if you want to remove the song reove thos lines:
+- if you want to remove the song delete these lines:
   
 ```python
 from pygame import mixer
