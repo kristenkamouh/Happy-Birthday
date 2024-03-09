@@ -10,9 +10,12 @@ download the latest version from the release page
 - edit the python file (change colors, change the displayed sentece, ...)
 - change the theme song (change the directory/name in the main file)
 - if you want to remove the song reove thos lines:
-  ```python
-  import pygame
-  ```
+```python
+from pygame import mixer
+mixer.pre_init(frequency=48000, size=-16, channels=2, buffer=512)
+mixer.init()
+mixer.music.load("hbd-song.mp3") #add your music file name or path
+```
 
 ## Convert to exe
 ```bash
