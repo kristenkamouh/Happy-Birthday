@@ -1,5 +1,5 @@
 # Happy-Birthday
-Happy Birthday using python turtle and pygame
+Happy Birthday using turtle and pygame
 
 ## How to use it
 
@@ -15,7 +15,7 @@ pip install turtle
 ```bash
 pip install pygame
 ```
-- edit the python file (change colors, change the displayed sentece, ...)
+- edit the python file (change colors, change the displayed sentence, ...)
 - change the theme song (change the directory/name in the main file)
 - if you want to remove the song delete these lines:
   
@@ -36,7 +36,6 @@ pip install auto-py-to-exe
 - add the file directory 
 - choose if you want the app to be window or console based
 - add an icon (optional)
-- add extra files (in this case the .mp3 file for the background music)
+- add extra files (add the .mp3 file for the background music)
 - click on generate
-- the output should be in a folder named 'output' in the folder you are in
-
+- the output should be in a folder named 'output' in the directory you chose
