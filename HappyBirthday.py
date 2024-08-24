@@ -5,12 +5,12 @@ from pygame import mixer
 
 mixer.pre_init(frequency=48000, size=-16, channels=2, buffer=512)
 mixer.init()
-mixer.music.load("hbd-song.mp3") #add your music file name or path
+mixer.music.load("hbd-song.mp3") # add your music file name or path
 
 
 # sets background
 bg = turtle.Screen()
-bg.title("3A2BEL EL 100 !!!!! - **use earphones for better experience !")
+bg.title("Wish him a hapy bday") # Change to whatever you want
 bg.bgcolor("black")
 mixer.music.play()
 
@@ -107,6 +107,6 @@ turtle.color("pink")
 turtle.pendown()
 
 
-turtle.write(arg=f"Happy Birthday, dear companion, as the sun doth shine, \nMay each moment be a sonnet, in this day of thine.", align="left", font=("jokerman", 15, "normal"))
+turtle.write(arg=f" ???? ", align="left", font=("jokerman", 15, "normal")) # Change the display message
 
 time.sleep(5)
